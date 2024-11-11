@@ -91,3 +91,10 @@ a.active hr{
   font-weight: 400;
   font-style: normal;
 }
+
+  @media (max-width:640px) {
+    a.active{
+      background-color: black;
+      color: white;
+    }
+  }
