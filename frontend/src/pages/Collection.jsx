@@ -104,13 +104,13 @@ const Collection = () => {
           <p className='mb-3 text-sm font-medium' >CATEGORÍAS</p>
           <div className='flex flex-col gap-2 text-sm font-light text-gray-700'>
             <p className='flex gap-2' >
-              <input className='w-3' type="checkbox" value={'Guitarra'} onChange={toggleCategory}/> Guitarras
+              <input className='w-3' type="checkbox" value={'Guitarra'} onChange={toggleCategory}/> Guitarras Eléctricas
             </p>
             <p className='flex gap-2' >
-              <input className='w-3' type="checkbox" value={'Bajo'} onChange={toggleCategory}/> Bajos
+              <input className='w-3' type="checkbox" value={'Bajo'} onChange={toggleCategory}/> Bajos Eléctricos
             </p>
             <p className='flex gap-2' >
-              <input className='w-3' type="checkbox" value={'Teclado'} onChange={toggleCategory}/> Teclados
+              <input className='w-3' type="checkbox" value={'Acustico'} onChange={toggleCategory}/> Inst. Acústicos
             </p>
           </div>
         </div>
@@ -122,10 +122,10 @@ const Collection = () => {
               <input className='w-3' type="checkbox" value={'Fender'} onChange={toggleSubCategory} /> Fender
             </p>
             <p className='flex gap-2' >
-              <input className='w-3' type="checkbox" value={'Gretsch'} onChange={toggleSubCategory} /> Gretsch
+              <input className='w-3' type="checkbox" value={'Gibson'} onChange={toggleSubCategory} /> Gibson
             </p>
             <p className='flex gap-2' >
-              <input className='w-3' type="checkbox" value={'Yamaha'} onChange={toggleSubCategory} /> Yamaha
+              <input className='w-3' type="checkbox" value={'Ibanez'} onChange={toggleSubCategory} /> Ibanez
             </p>
           </div>
         </div>
