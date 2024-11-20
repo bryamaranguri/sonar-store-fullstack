@@ -11,13 +11,30 @@ const createToken = (id) => {
 // Ruta para loguear un usuario
 const loginUser = async (req, res) => {
 
-  // const { email, password } = req.body;
-  // try {
-  //   const user
+  try {
+    const { email, password } = req.body;
 
-  // } catch (error) {
-  //   console.log(error)
-  // }
+    // Validar si el usuario existe
+    const user = await userModel.findOne({ email });
+
+    if (!user) {
+      return res.json({ success: false, message: 'El usuario no existe' });
+    }
+
+    const isMatch = await bcrypt.compare(password, user.password);
+
+    if (isMatch) {
+      const token = createToken(user._id);
+      res.json({ success: true, token });
+    }
+    else {
+      res.json({ success: false, message: 'Credenciales incorrectas' });
+    }
+
+  } catch (error) {
+    console.log(error);
+    res.json({ success: false, message: 'Error al loguear el usuario' });
+  }
 }
 
 
