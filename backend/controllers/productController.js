@@ -67,18 +67,47 @@ const addProduct = async (req, res) => {
 // Función para listar productos
 const listProducts = async (req, res) => {
 
+  try {
+    const products = await productModel.find({});
+    res.json({ success: true, products });
+  } catch (error) {
+    console.log(error);
+    res.json({ success: false, message: 'Error al listar los productos' });
+  }
 }
 
 
 // Función para eliminar un producto
 const removeProduct = async (req, res) => {
 
+  try {
+
+    await productModel.findByIdAndDelete(req.body.id);
+    res.json({ success: true, message: 'Producto eliminado correctamente' });
+  } catch (error) {
+    console.log(error);
+    res.json({ success: false, message: 'Error al eliminar el producto' });
+  }
+
 }
 
 
 // Función para informacion de un producto
 const singleProduct = async (req, res) => {
+  try {
+    const { productId } = req.body;
+    console.log(`Product ID received: ${productId}`); // Verificar el productId recibido
 
+    const product = await productModel.findById(productId);
+    if (!product) {
+      return res.json({ success: false, message: 'Producto no encontrado' });
+    }
+
+    res.json({ success: true, product });
+  } catch (error) {
+    console.log(error);
+    res.json({ success: false, message: 'Error al obtener la información del producto' });
+  }
 }
 
 export { listProducts, addProduct, removeProduct, singleProduct };
