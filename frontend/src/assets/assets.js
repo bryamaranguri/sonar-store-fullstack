@@ -104,7 +104,7 @@ export const products = [
         image: [p_img1],
         category: "Guitarra",
         subCategory: "Fender",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716634345448,
         bestseller: true
     },
@@ -116,7 +116,7 @@ export const products = [
         image: [p_img2_1,p_img2_2,p_img2_3,p_img2_4],
         category: "Bajo",
         subCategory: "Fender",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716621345448,
         bestseller: true
     },
@@ -128,7 +128,7 @@ export const products = [
         image: [p_img3],
         category: "Acustico",
         subCategory: "Gibson",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716234545448,
         bestseller: true
     },
@@ -140,7 +140,7 @@ export const products = [
         image: [p_img4],
         category: "Guitarra",
         subCategory: "Gibson",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716621345448,
         bestseller: true
     },
@@ -152,7 +152,7 @@ export const products = [
         image: [p_img5],
         category: "Guitarra",
         subCategory: "Fender",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716622345448,
         bestseller: true
     },
@@ -164,7 +164,7 @@ export const products = [
         image: [p_img6],
         category: "Guitarra",
         subCategory: "Gibson",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716623423448,
         bestseller: true
     },
@@ -176,7 +176,7 @@ export const products = [
         image: [p_img7],
         category: "Guitarra",
         subCategory: "Ibanez",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716621542448,
         bestseller: false
     },
@@ -188,7 +188,7 @@ export const products = [
         image: [p_img8],
         category: "Acustico",
         subCategory: "Fender",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716622345448,
         bestseller: false
     },
@@ -200,7 +200,7 @@ export const products = [
         image: [p_img9],
         category: "Bajo",
         subCategory: "Gibson",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716621235448,
         bestseller: false
     },
@@ -212,7 +212,7 @@ export const products = [
         image: [p_img10],
         category: "Guitarra",
         subCategory: "Gibson",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716622235448,
         bestseller: false
     },
@@ -224,7 +224,7 @@ export const products = [
         image: [p_img11],
         category: "Bajo",
         subCategory: "Fender",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716623345448,
         bestseller: false
     },
@@ -236,7 +236,7 @@ export const products = [
         image: [p_img12],
         category: "Guitarra",
         subCategory: "Fender",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716624445448,
         bestseller: false
     },
@@ -248,7 +248,7 @@ export const products = [
         image: [p_img13],
         category: "Guitarra",
         subCategory: "Fender",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716625545448,
         bestseller: false
     },
@@ -260,7 +260,7 @@ export const products = [
         image: [p_img14],
         category: "Acustico",
         subCategory: "Gibson",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716626645448,
         bestseller: false
     },
@@ -272,7 +272,7 @@ export const products = [
         image: [p_img15],
         category: "Bajo",
         subCategory: "Ibanez",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716627745448,
         bestseller: false
     },
@@ -284,7 +284,7 @@ export const products = [
         image: [p_img16],
         category: "Guitarra",
         subCategory: "Ibanez",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716628845448,
         bestseller: false
     },
@@ -296,7 +296,7 @@ export const products = [
         image: [p_img17],
         category: "Guitarra",
         subCategory: "Fender",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716629945448,
         bestseller: false
     },
@@ -308,7 +308,7 @@ export const products = [
         image: [p_img18],
         category: "Guitarra",
         subCategory: "Gibson",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716631045448,
         bestseller: false
     },
@@ -320,7 +320,7 @@ export const products = [
         image: [p_img19],
         category: "Guitarra",
         subCategory: "Gibson",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716632145448,
         bestseller: false
     },
@@ -332,7 +332,7 @@ export const products = [
         image: [p_img20],
         category: "Guitarra",
         subCategory: "Gibson",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716633245448,
         bestseller: false
     },
@@ -344,7 +344,7 @@ export const products = [
         image: [p_img21],
         category: "Guitarra",
         subCategory: "Ibanez",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716634345448,
         bestseller: false
     },
@@ -356,7 +356,7 @@ export const products = [
         image: [p_img22],
         category: "Guitarra",
         subCategory: "Gibson",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716635445448,
         bestseller: false
     },
@@ -368,7 +368,7 @@ export const products = [
         image: [p_img23],
         category: "Acustico",
         subCategory: "Fender",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716636545448,
         bestseller: false
     },
@@ -380,7 +380,7 @@ export const products = [
         image: [p_img24],
         category: "Acustico",
         subCategory: "Fender",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716637645448,
         bestseller: false
     },
@@ -392,7 +392,7 @@ export const products = [
         image: [p_img25],
         category: "Acustico",
         subCategory: "Fender",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716638745448,
         bestseller: false
     },
@@ -404,7 +404,7 @@ export const products = [
         image: [p_img26],
         category: "Guitarra",
         subCategory: "Ibanez",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716639845448,
         bestseller: false
     },
@@ -416,7 +416,7 @@ export const products = [
         image: [p_img27],
         category: "Acustico",
         subCategory: "Fender",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716640945448,
         bestseller: false
     },
@@ -428,7 +428,7 @@ export const products = [
         image: [p_img28],
         category: "Bajo",
         subCategory: "Ibanez",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716642045448,
         bestseller: false
     },
@@ -440,7 +440,7 @@ export const products = [
         image: [p_img29],
         category: "Guitarra",
         subCategory: "Fender",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716643145448,
         bestseller: false
     },
@@ -452,7 +452,7 @@ export const products = [
         image: [p_img30],
         category: "Acustico",
         subCategory: "Fender",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716644245448,
         bestseller: false
     },
@@ -464,7 +464,7 @@ export const products = [
         image: [p_img31],
         category: "Bajo",
         subCategory: "Fender",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716645345448,
         bestseller: false
     },
@@ -476,7 +476,7 @@ export const products = [
         image: [p_img32],
         category: "Bajo",
         subCategory: "Fender",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716646445448,
         bestseller: false
     },
@@ -488,7 +488,7 @@ export const products = [
         image: [p_img33],
         category: "Acustico",
         subCategory: "Fender",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716647545448,
         bestseller: false
     },
@@ -500,7 +500,7 @@ export const products = [
         image: [p_img34],
         category: "Guitarra",
         subCategory: "Fender",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716648645448,
         bestseller: false
     },
@@ -512,7 +512,7 @@ export const products = [
         image: [p_img35],
         category: "Guitarra",
         subCategory: "Ibanez",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716649745448,
         bestseller: false
     },
@@ -524,7 +524,7 @@ export const products = [
         image: [p_img36],
         category: "Guitarra",
         subCategory: "Ibanez",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716650845448,
         bestseller: false
     },
@@ -536,7 +536,7 @@ export const products = [
         image: [p_img37],
         category: "Guitarra",
         subCategory: "Fender",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716651945448,
         bestseller: false
     },
@@ -548,7 +548,7 @@ export const products = [
         image: [p_img38],
         category: "Bajo",
         subCategory: "Fender",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716653045448,
         bestseller: false
     },
@@ -560,7 +560,7 @@ export const products = [
         image: [p_img39],
         category: "Bajo",
         subCategory: "Fender",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716654145448,
         bestseller: false
     },
@@ -572,7 +572,7 @@ export const products = [
         image: [p_img40],
         category: "Bajo",
         subCategory: "Ibanez",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716655245448,
         bestseller: false
     },
@@ -584,7 +584,7 @@ export const products = [
         image: [p_img41],
         category: "Bajo",
         subCategory: "Fender",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716656345448,
         bestseller: false
     },
@@ -596,7 +596,7 @@ export const products = [
         image: [p_img42],
         category: "Acustico",
         subCategory: "Fender",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716657445448,
         bestseller: false
     },
@@ -608,7 +608,7 @@ export const products = [
         image: [p_img43],
         category: "Acustico",
         subCategory: "Gibson",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716658545448,
         bestseller: false
     },
@@ -620,7 +620,7 @@ export const products = [
         image: [p_img44],
         category: "Guitarra",
         subCategory: "Ibanez",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716659645448,
         bestseller: false
     },
@@ -632,7 +632,7 @@ export const products = [
         image: [p_img45],
         category: "Bajo",
         subCategory: "Ibanez",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716660745448,
         bestseller: false
     },
@@ -644,7 +644,7 @@ export const products = [
         image: [p_img46],
         category: "Bajo",
         subCategory: "Ibanez",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716661845448,
         bestseller: false
     },
@@ -656,7 +656,7 @@ export const products = [
         image: [p_img47],
         category: "Acustico",
         subCategory: "Gibson",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716662945448,
         bestseller: false
     },
@@ -668,7 +668,7 @@ export const products = [
         image: [p_img48],
         category: "Bajo",
         subCategory: "Ibanez",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716664045448,
         bestseller: false
     },
@@ -680,7 +680,7 @@ export const products = [
         image: [p_img49],
         category: "Acustico",
         subCategory: "Gibson",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716665145448,
         bestseller: false
     },
@@ -692,7 +692,7 @@ export const products = [
         image: [p_img50],
         category: "Acustico",
         subCategory: "Gibson",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716666245448, bestseller: false
     },
     {
@@ -703,7 +703,7 @@ export const products = [
         image: [p_img51],
         category: "Guitarra",
         subCategory: "Ibanez",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716667345448,
         bestseller: false
     },
@@ -715,7 +715,7 @@ export const products = [
         image: [p_img52],
         category: "Bajo",
         subCategory: "Ibanez",
-        sizes: ["Envío a Domicilio", "Recojo en Tienda"],
+        sizes: ["Delivery", "Recojo"],
         date: 1716668445448,
         bestseller: false
     }
