@@ -99,7 +99,7 @@ export const products = [
     {
         _id: "aaaaa",
         name: "JV '50s Telecaster",
-        description: "La serie JV Modified combina la estética clásica con una interpretación moderna para adaptarse a las necesidades del guitarrista actual. Tomando como referencia las reediciones 'Japanese Vintage', ahora muy buscadas, de principios de los años 80, las guitarras JV Modified son una versión refinada de un clásico moderno.La 50 Telecaster está equipada con un cuerpo de tilo resonante y dos pastillas de bobina simple expresadas para replicar el tono Tele clásico. Un interruptor de 4 vías permite seleccionar rápidamente cada pastilla individualmente o ambas pastillas en serie o cableado paralelo. Un potenciómetro push-pull en el control de tono permite cambiar las pastillas de fase en las posiciones 2 y 4 del interruptor, el diapasón es de arce de 9,5 de radio y trastes médium jumbo.Para el músico que busca instrumentos Fender clásicos con un toque especial, la serie JV Modified ofrece una combinación única de estilo Fender clásico y toque moderno.",
+        description: "La serie JV Modified combina la estética clásica con una interpretación moderna para adaptarse a las necesidades del guitarrista actual. Tomando como referencia las reediciones 'Japanese Vintage', ahora muy buscadas, de principios de los años 80, las guitarras JV Modified son una versión refinada de un clásico moderno.",
         price: 10000,
         image: [p_img1],
         category: "Guitarra",
@@ -111,7 +111,7 @@ export const products = [
     {
         _id: "aaaab",
         name: "Vintera '60s Jazz Bass",
-        description: "La serie JV Modified combina la estética clásica con una interpretación moderna para adaptarse a las necesidades del guitarrista actual. Tomando como referencia las reediciones 'Japanese Vintage', ahora muy buscadas, de principios de los años 80, las guitarras JV Modified son una versión refinada de un clásico moderno.La 50 Telecaster está equipada con un cuerpo de tilo resonante y dos pastillas de bobina simple expresadas para replicar el tono Tele clásico. Un interruptor de 4 vías permite seleccionar rápidamente cada pastilla individualmente o ambas pastillas en serie o cableado paralelo. Un potenciómetro push-pull en el control de tono permite cambiar las pastillas de fase en las posiciones 2 y 4 del interruptor, el diapasón es de arce de 9,5 de radio y trastes médium jumbo.Para el músico que busca instrumentos Fender clásicos con un toque especial, la serie JV Modified ofrece una combinación única de estilo Fender clásico y toque moderno.",
+        description: "Para los músicos que desean el estilo y el sonido de los años clásicos de Fender, creamos el Vintera Jazz Bass de los 60. Equipado con las codiciadas características que definieron la década, incluyendo el perfil del mástil y la sensación, junto con las pastillas recreadas de los 60, este bajo tiene todo el sonido y potencia que hicieron del J Bass® una leyenda. ",
         price: 12000,
         image: [p_img2_1,p_img2_2,p_img2_3,p_img2_4],
         category: "Bajo",

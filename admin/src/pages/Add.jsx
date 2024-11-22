@@ -103,7 +103,7 @@ const Add = ({ token }) => {
 
         <div>
           <p className='mb-2' >Categoría del Instrumento:</p>
-          <select onChange={(e)=> setCategory(e.target.value)} className=' w-full px-3 py-2 ' >
+          <select onChange={(e)=> setCategory(e.target.value)} value= {category} className=' w-full px-3 py-2 ' >
             <option value="Bajo">Bajo Eléctrico</option>
             <option value="Guitarra">Guitarra Eléctrica</option>
             <option value="Acustico">Inst. Acústico</option>
@@ -111,7 +111,7 @@ const Add = ({ token }) => {
         </div>
         <div>
           <p className='mb-2' >Marca:</p>
-          <select onChange={(e)=> setSubCategory(e.target.value)} className=' w-full px-3 py-2 ' >
+          <select onChange={(e)=> setSubCategory(e.target.value)} value={subCategory} className=' w-full px-3 py-2 ' >
             <option value="Fender">Fender</option>
             <option value="Gibson">Gibson</option>
             <option value="Ibanez">Ibanez</option>
