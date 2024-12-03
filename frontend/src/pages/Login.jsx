@@ -23,7 +23,6 @@ const Login = () => {
         } else {
           toast.error(response.data.message);
         }
-
       } else {
         const response = await axios.post(backendUrl + '/api/user/login', { email, password });
         if (response.data.success) {
@@ -32,12 +31,7 @@ const Login = () => {
         } else {
           toast.error(response.data.message);
         }
-
-
       }
-
-
-
     } catch (error) {
       console.log(error);
       toast.error(error.message);
