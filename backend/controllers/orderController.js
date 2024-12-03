@@ -1,3 +1,6 @@
+import orderModel from '../models/orderModel.js';
+import userModel from '../models/userModel.js';
+
 
 // Realizando pedidos utilizando el método de pago contra entrega
 const placeOrder = async (req, res) => {
@@ -9,13 +12,26 @@ const placeOrder = async (req, res) => {
     const orderData = {
       userId,
       items,
+      address,
       amount,
-      paymentMethod: 'Contraentrega',
+      paymentMethod: 'contraentrega',
       payment: false,
       date: Date.now()
     }
 
+    const newOrder = new orderModel(orderData);
+    await newOrder.save();
+
+    await userModel.findByIdAndUpdate(userId, {cartData:{}})
+
+    res.json({ success: true, message: 'Pedido realizado con éxito' });
+
+
   } catch (error) {
+
+    console.log(error);
+    res.json({ success: false, message: error.message });
+
 
   }
 }
