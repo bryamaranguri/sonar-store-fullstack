@@ -70,9 +70,6 @@ const PlaceOrder = () => {
           }
           break;
 
-        default:
-          break;
-
         case 'stripe':
           const responseStripe = await axios.post(backendUrl + '/api/order/stripe', orderData, {headers:{token}});
           if (responseStripe.data.success) {
@@ -83,7 +80,9 @@ const PlaceOrder = () => {
             toast.error(responseStripe.data.message);
           }
 
+          break;
 
+        default:
           break;
       }
 
