@@ -52,6 +52,18 @@ const placeOrderRazorpay = async (req, res) => {
 // Información de TODOS los pedidos para panel Admin
 const allOrders = async (req, res) => {
 
+  try {
+
+    const orders = await orderModel.find({});
+    res.json({ success: true, orders});
+
+  } catch (error) {
+
+      console.log(error);
+      res.json({ success: false, message: error.message });
+
+  }
+
 }
 
 
