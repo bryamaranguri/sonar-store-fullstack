@@ -18,7 +18,7 @@ const BestSeller = () => {
       <div className='text-center text-3xl py-8'>
         <Title text1={'MÁS'} text2={'VENDIDOS'}/>
         <p className='w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600' >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, porro illum explicabo quod eaque dignissimos impedit maiores velit, delectus ipsum iure doloribus magnam, aliquam saepe corporis mollitia similique reprehenderit. Amet.
+        Descubre nuestros instrumentos más vendidos, seleccionados por músicos de todo el mundo. Cada pieza combina calidad excepcional y diseño impecable, garantizando una experiencia musical incomparable. ¡Encuentra el instrumento perfecto que todos adoran!
         </p>
       </div>
 

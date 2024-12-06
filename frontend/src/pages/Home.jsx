@@ -11,7 +11,9 @@ const Home = () => {
       <Hero />
       <LatestCollection/>
       <BestSeller/>
+      <div id= "our-policy" >
       <OurPolicy/>
+      </div>
       <NewsletterBox/>
     </div>
   )

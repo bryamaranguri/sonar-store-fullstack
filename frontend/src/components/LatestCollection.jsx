@@ -19,7 +19,7 @@ const LatestCollection = () => {
       <div className='text-center py-8 text-3xl'>
         <Title text1= {'LO NUEVO EN'} text2={'EQUIPAMIENTO MUSICAL'}/>
         <p className='w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci assumenda accusamus eaque recusandae aspernatur eos, iure dolore doloribus
+        Explora las últimas novedades en instrumentos musicales, recién llegados a nuestra tienda. Descubre diseños innovadores, calidad insuperable y todo lo que necesitas para llevar tu música al siguiente nivel. ¡Sé el primero en conocer las tendencias más recientes!
         </p>
       </div>
 
