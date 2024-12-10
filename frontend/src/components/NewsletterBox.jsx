@@ -49,12 +49,12 @@ const NewsletterBox = () => {
     }
 
   return (
-    <div className='text-center' >
-      <p className='text-2xl font-medium text-gray-800' >Suscríbete ahora y obtén envío gratuito</p>
-      <p className='text-gray-400 mt-3'>Envío gratuito en tu primera compra </p>
-      <form onSubmit={onSubmitHandler} className='w-full sm:w-1/2 flex items-center gap-3 mx-auto my-6 border pl-3' >
-        <input className='w-full sm:flex-1 outline-none' type="email" placeholder='Ingresa tu email' value={email} onChange={(event)=>setEmail(event.target.value)} required />
-        <button type='submit' className='bg-black text-white text-xs px-10 py-4 font-semibold' >SUSCRIBIRSE</button>
+    <div className='text-center bg-gradient-to-r from-[#152213] to-[#435151] p-8 rounded-b-lg shadow-lg ' >
+      <p className='text-3xl font-semibold text-white mb-2' >Suscríbete ahora y obtén envío gratuito</p>
+      <p className='text-white mb-6'>Envío gratuito en tu primera compra </p>
+      <form onSubmit={onSubmitHandler} className='w-full sm:w-1/2 flex items-center gap-3 mx-auto my-6 border border-white rounded-lg pl-3 bg-white bg-opacity-20'>
+        <input className='w-full sm:flex-1 outline-none bg-transparent text-white placeholder-white ' type="email" placeholder='Ingresa tu email' value={email} onChange={(event)=>setEmail(event.target.value)} required />
+        <  button type='submit' className='bg-white text-black text-xs px-10 py-4 font-semibold rounded-lg hover:bg-gray-200 transition duration-300' >SUSCRIBIRSE</button>
       </form>
     </div>
   )
