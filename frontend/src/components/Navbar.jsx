@@ -20,37 +20,39 @@ const Navbar = () => {
   return (
     <div className='flex items-center justify-between py-5 font-medium' >
 
-      <Link to='/' ><img src={assets.logo} className='w-36' alt='logo'  /></Link>
+      <ul className='flex-1 hidden sm:flex gap-5 text-sm text-gray-700'>
 
-      <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
-
-        <NavLink to='/' className='flex flex-col items-center gap-1'>
+        {/* <NavLink to='/' className='flex flex-col items-center gap-1'>
           <p>INICIO</p>
           <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
-        </NavLink>
+        </NavLink> */}
 
-        <NavLink to='/collection' className='flex flex-col items-center gap-1'>
+        <NavLink to='/collection' className='flex flex-col items-center gap-1 hover:text-[#c0a98f] transition duration-300'>
           <p>INSTRUMENTOS</p>
-          <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
+          <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden ' />
         </NavLink>
 
-        <NavLink to='/about' className='flex flex-col items-center gap-1'>
+        <NavLink to='/about' className='flex flex-col items-center gap-1 hover:text-[#c0a98f] transition duration-300 '>
           <p>ACERCA DE</p>
           <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
         </NavLink>
 
-        <NavLink to='/contact' className='flex flex-col items-center gap-1'>
+        <NavLink to='/contact' className='flex flex-col items-center gap-1 hover:text-[#c0a98f] transition duration-300 '>
           <p>CONTÁCTANOS</p>
           <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
         </NavLink>
 
       </ul>
 
-      <div className='flex items-center gap-6'>
-        <img onClick={()=> {setShowSearch(true); navigate('/collection') }} src={assets.search_icon} className='w-5 cursor-pointer' alt="" />
+      <div className='flex-1 flex justify-center' >
+        <Link to='/' className=''  ><img src={assets.logo} className='flex justify-center w-40 transition-transform duration-300 hover:scale-125' alt='logo'  /></Link>
+      </div>
+
+      <div className='flex-1 flex justify-end items-center gap-8'>
+        <img onClick={()=> {setShowSearch(true); navigate('/collection') }} src={assets.search_icon} className='w-9 cursor-pointer' alt="" />
 
         <div className='group relative'>
-          <img onClick={()=> token ?  null : navigate('/login')} className='w-5 cursor-pointer' src={assets.profile_icon} alt="" />
+          <img onClick={()=> token ?  null : navigate('/login')} className='w-9 cursor-pointer' src={assets.profile_icon} alt="" />
 
           {/* MENU DESPLEGABLE */}
           { token &&
@@ -64,8 +66,8 @@ const Navbar = () => {
         </div>
 
         <Link to='/cart' className='relative'>
-          <img src={assets.cart_icon} className='w-5 min-w-5' alt="" />
-          <p className='absolute right-[-5px] bottom-[-5px] w-4 text-center leading-4 bg-black text-white aspect-square rounded-full text-[8px] '>{getCartCount()}</p>
+          <img src={assets.cart_icon} className='w-8 min-w-5' alt="" />
+          <p className='absolute right-[-5px] bottom-[-5px] w-4 text-center leading-4 bg-black text-white aspect-square rounded-md  text-[10px] '>{getCartCount()}</p>
         </Link>
 
         <img onClick={() =>setVisible(true)} src={assets.menu_icon} className='w-5 cursor-pointer sm:hidden' alt="" />
