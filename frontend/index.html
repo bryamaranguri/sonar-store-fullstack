@@ -5,9 +5,36 @@
     <link rel="icon" type="image/png" href="/src/assets/isotype_sonarstore.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sonar Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.theme.css">
+    <style>
+      .slick-prev, .slick-next {
+        display: none !important;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <script>
+    $(document).ready(function(){
+        $(".single-item").slick({
+          fade: true,
+          speed: 2000,
+          autoplay: true,
+          autoplaySpeed: 4000,
+          pauseOnFocus: false,
+          pauseOnHover: false
+        }).on("afterChange", function(){
+          console.log("After change message");
+
+
+        });
+    });
+
+    </script>
   </body>
 </html>

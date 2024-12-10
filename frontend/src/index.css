@@ -107,6 +107,42 @@ a.active hr {
   display: none;
 }
 
+.hero-sec{
+  width: 100%;
+}
+
+.slide{
+  position: relative;
+  max-height: 100vh;
+
+}
+
+.slide img{
+  transition: all linear 2s;
+  transform: scale(1.1);
+}
+
+.slick-active .slide img{
+  transition: all ease 3s;
+  transform: translateY(-10px) scale(1);
+}
+
+.slide-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-shadow-light {
+  text-shadow: 2px 2px 4px rgba(232, 224, 218, 0.434);
+}
+
+.text-shadow-dark {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.434);
+}
+
 @media (max-width: 640px) {
   a.active {
     background-color: black;
