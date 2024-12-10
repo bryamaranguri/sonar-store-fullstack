@@ -8,7 +8,7 @@ const NewsletterBox = () => {
       event.preventDefault();
       const name = email.split('@')[0];
       try {
-        const response = await axios.post('https://sonarstore.vercel.app/send-email', {
+        const response = await axios.post('https://sonar-store-backend.vercel.app/send-email', {
           to: email,
           subject: `Gracias por suscribirte a Sonar Store ${name}! 🎉`,
           html: `
