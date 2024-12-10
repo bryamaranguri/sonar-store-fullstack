@@ -18,9 +18,9 @@ const Navbar = () => {
     }
 
   return (
-    <div className='flex items-center justify-between py-5 font-medium' >
+    <div className='flex items-center justify-between py-5 font-medium bg-gradient-to-r from-[#435151] to-[#152213] p-8 shadow-lg ' >
 
-      <ul className='flex-1 hidden sm:flex gap-5 text-sm text-gray-700'>
+      <ul className='flex-1 hidden sm:flex gap-5 text-sm text-[#e8e0da] '>
 
         {/* <NavLink to='/' className='flex flex-col items-center gap-1'>
           <p>INICIO</p>

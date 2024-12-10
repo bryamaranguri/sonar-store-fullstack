@@ -91,18 +91,18 @@ const Collection = () => {
 
 
   return (
-    <div className='flex flex-col sm:flex-row gap-1 sm:gap-10 pt-10 border-t' >
+    <div className='flex flex-col sm:flex-row gap-1 sm:gap-10 pt-10 border-t text-[#e8e0da]' >
 
       {/* Opciones de Filtros */}
-      <div className='min-w-60'>
-        <p onClick={() => setShowFilter(!showFilter)} className='my-2 text-xl flex items-center cursor-pinter gap-2' >FILTROS
+      <div className='min-w-60 bg-gradient-to-r from-[#435151] to-[#152213] p-8 shadow-lg rounded-t-md rounded-b-md '>
+        <p onClick={() => setShowFilter(!showFilter)} className='my-2 text-2xl flex items-center cursor-pinter gap-2' >FILTROS
           <img className={`h-3 sm:hidden ${showFilter ? 'rotate-90' : '' }`} src={assets.dropdown_icon} alt="" />
         </p>
 
         {/* Categorías de los filtros */}
         <div className={`border border-gray-300 pl-5 py-3 mt-6 ${showFilter ? '' : 'hidden'} sm:block `} >
           <p className='mb-3 text-sm font-medium' >CATEGORÍAS</p>
-          <div className='flex flex-col gap-2 text-sm font-light text-gray-700'>
+          <div className='flex flex-col gap-2 text-sm font-light text-gray-100'>
             <p className='flex gap-2' >
               <input className='w-3' type="checkbox" value={'Guitarra'} onChange={toggleCategory}/> Guitarras Eléctricas
             </p>
@@ -117,7 +117,7 @@ const Collection = () => {
         {/* Filtros de Subcategorías */}
         <div className={`border border-gray-300 pl-5 py-3 my-5 ${showFilter ? '' : 'hidden'} sm:block `} >
           <p className='mb-3 text-sm font-medium' >MARCAS</p>
-          <div className='flex flex-col gap-2 text-sm font-light text-gray-700'>
+          <div className='flex flex-col gap-2 text-sm font-light text-gray-100'>
             <p className='flex gap-2' >
               <input className='w-3' type="checkbox" value={'Fender'} onChange={toggleSubCategory} /> Fender
             </p>
@@ -138,7 +138,7 @@ const Collection = () => {
         <div className='flex justify-between text-base sm:text-2xl mb-4' >
           <Title text1={'TODOS LOS'} text2={'INSTRUMENTOS'} />
           {/* Ordenar por: */}
-          <select onChange={(e)=>setSortType(e.target.value)} className='border-2 border-gray-300 text-sm px-2'>
+          <select onChange={(e)=>setSortType(e.target.value)} className='border-2 border-gray-300 text-white text-sm px-2 bg-black'>
             <option value="relevant">Ordenar por: Importancia</option>
             <option value="low-high">Ordenar por: Precio bajo a alto</option>
             <option value="high-low">Ordenar por: Precio alto a bajo</option>
