@@ -18,7 +18,7 @@ const Navbar = () => {
     }
 
   return (
-    <div className='flex items-center justify-between py-5 font-medium bg-gradient-to-r from-[#435151] to-[#152213] p-8 shadow-lg ' >
+    <div className='flex items-center justify-between py-5 font-medium bg-gradient-to-r from-[#435151] to-[#152213] p-2 md:p-8 shadow-lg' >
 
       <ul className='flex-1 hidden sm:flex gap-5 text-sm text-[#e8e0da] '>
 
@@ -48,11 +48,11 @@ const Navbar = () => {
         <Link to='/' className=''  ><img src={assets.logo} className='flex justify-center w-40 transition-transform duration-300 hover:scale-125' alt='logo'  /></Link>
       </div>
 
-      <div className='flex-1 flex justify-end items-center gap-8'>
-        <img onClick={()=> {setShowSearch(true); navigate('/collection') }} src={assets.search_icon} className='w-9 cursor-pointer' alt="" />
+      <div className='flex-1 flex justify-end items-center gap-4 md:gap-8'>
+        <img onClick={()=> {setShowSearch(true); navigate('/collection') }} src={assets.search_icon} className='w-5 md:w-9 cursor-pointer' alt="" />
 
         <div className='group relative'>
-          <img onClick={()=> token ?  null : navigate('/login')} className='w-9 cursor-pointer' src={assets.profile_icon} alt="" />
+          <img onClick={()=> token ?  null : navigate('/login')} className='w-5 md:w-9 cursor-pointer' src={assets.profile_icon} alt="" />
 
           {/* MENU DESPLEGABLE */}
           { token &&
@@ -66,11 +66,11 @@ const Navbar = () => {
         </div>
 
         <Link to='/cart' className='relative'>
-          <img src={assets.cart_icon} className='w-8 min-w-5' alt="" />
+          <img src={assets.cart_icon} className='w-5 md:w-8 min-w-5' alt="" />
           <p className='absolute right-[-5px] bottom-[-5px] w-4 text-center leading-4 bg-black text-white aspect-square rounded-md  text-[10px] '>{getCartCount()}</p>
         </Link>
 
-        <img onClick={() =>setVisible(true)} src={assets.menu_icon} className='w-5 cursor-pointer sm:hidden' alt="" />
+        <img onClick={() =>setVisible(true)} src={assets.menu_icon} className='w-6 md:w-9 cursor-pointer sm:hidden' alt="" />
 
       </div>
 
