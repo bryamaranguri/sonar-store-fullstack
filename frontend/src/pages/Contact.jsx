@@ -15,7 +15,7 @@ const Contact = () => {
         <img className='2-full md:max-w-[480px]' src={assets.contact_img} alt="" />
         <div className=' flex flex-col justify-center items-start gap-6' >
           <p className='font-semibold text-xl text-gray-600' >Nuestra Tienda</p>
-          <p className='text-gray-500' >Av. Javier Prado 322 <br /> Lima, Perú </p>
+          <p className='text-gray-500' >Av. España 322 <br /> Trujillo, Perú </p>
           <p className=' text-gray-500' >Tel: (01) 645-8327 <br /> E-mail: admin@sonarstore.com </p>
           <p className=' font-semibold text-xl  text-gray-600' > Trabaja con Nosotros </p>
           <p className='text-gray-500' > Más información acerca de nuestro equipo y oportunidades. <br /> Lima, Perú </p>
